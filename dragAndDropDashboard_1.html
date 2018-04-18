@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+    
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    
+    <!-- Material design icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Jquery js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    <!-- Boostrap popper js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap main js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>    
+
+    <style>
+        .top-area{
+            height: 380px;
+        }
+
+        .bottom-area{
+            height: 180px;
+        }
+
+        .toolbox-area{
+            height: 560px;
+            box-shadow: 5px 10px #888888;
+        }
+
+        .material-icons{            
+            padding: 8px;
+            cursor: pointer;
+            margin-top: 8px; 
+        }
+    </style>
+</head>
+<body class="">
+
+    <div class="container text-center">
+        <h2>Dashboard</h2>
+
+        <div class="row">
+            <!-- Main areas container -->
+            <div class="col-sm-9">
+
+                <div class="row">                
+                    <div class="col-sm-6 text-center top-area border border-dark bg-primary text-white">
+                        <h3>Area 1</h3>
+                    </div>
+                    <div class="col-sm-6 text-center top-area border border-dark bg-info text-white">
+                        <h3>Area 2</h3>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-6 text-center bottom-area border border-dark bg-info text-white">
+                        <h3>Area 3</h3>
+                    </div>
+                    <div class="col-sm-6 text-center bottom-area border border-dark bg-primary text-white">
+                        <h3>Area 4</h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Division -->
+            <div class="col-sm-1"></div>
+
+            <!-- Toolbox area -->
+
+            <div class="col-sm-2 toolbox-areas border">
+                <h3><span class="badge badge-pill badge-secondary">Toolbox</span></h3>
+                
+                <!-- Tools icons -->
+                <div class="row">
+                    <div class="col-sm-6">
+                        <i class="material-icons bg-danger rounded-circle text-white">&#xE8C5;</i>
+                        <br>
+                        <i class="material-icons bg-danger rounded-circle text-white">&#xE8BC;</i>
+                        <br>
+                        <i class="material-icons bg-danger rounded-circle text-white">&#xE8C5;</i>
+                        <br>
+                        <i class="material-icons bg-danger rounded-circle text-white">&#xE8BC;</i>
+                        <br>
+                        <i class="material-icons bg-danger rounded-circle text-white">&#xE8C5;</i>
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="material-icons bg-success rounded-circle text-white">&#xE8A8;</i>
+                        <br>
+                        <i class="material-icons bg-success rounded-circle text-white">&#xE913;</i>
+                        <br>
+                        <i class="material-icons bg-success rounded-circle text-white">&#xE8A8;</i>
+                        <br>
+                        <i class="material-icons bg-success rounded-circle text-white">&#xE913;</i>
+                        <br>
+                        <i class="material-icons bg-success rounded-circle text-white">&#xE8A8;</i>
+                    </div>
+                </div>
+
+
+                <br>
+                <p>
+                    Drag and grop tools to the desired area.
+                </p>
+                
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
